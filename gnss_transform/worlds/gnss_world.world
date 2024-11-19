@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <world name="default">
+        <plugin name="gps" filename="libhector_gazebo_plugins.so">
+            <robotNamespace>/</robotNamespace>
+            <updateRate>10.0</updateRate>
+            <topicName>/gps/fix</topicName>
+        </plugin>
+    </world>
+</sdf>
